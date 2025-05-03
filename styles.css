@@ -41,7 +41,7 @@ body {
     margin-bottom: 30px;
 }
 
-.card__title2 {
+.card__calling {
     font-size: 20px;
     margin: 10px 0;
     margin-bottom: 30px;
@@ -95,14 +95,15 @@ body {
 }
 
 .card__image2 {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 140px;
     position: relative;
-    left: -20px;
-    margin: 40%;
-    margin-top: 10%;
+    left: 0;
+    margin: 0 10%;
+    margin-top: 7%;
     object-fit: cover;
     max-width: 100%;
+    max-height: auto;
 }
 
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
