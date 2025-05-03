@@ -1,0 +1,134 @@
+body {
+    font-family: Verdana;
+    background-image: url(Фон2.png);
+    background-size: cover;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    object-fit: cover;
+}
+
+
+.card {
+    background-image: url(Fon.png);
+    padding: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 15%;
+    height: 90%;
+    border: 3px solid rgb(255, 115, 0)
+}
+
+.card__image {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.card__image:hover {
+  border: 5px solid #28f739;
+}
+
+.card__name {
+    font-size: 40px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+}
+
+.card__title2 {
+    font-size: 20px;
+    margin: 10px 0;
+    margin-bottom: 30px;
+    color: #ac1e35;
+}
+
+.card__title {
+    color: #09822f;
+    margin-bottom: 20px;
+    font-style: oblique;
+    font-family: initial;
+    font-size: 21px;
+}
+
+.card__description {
+    font-size: 22px;
+    font-family: unset;
+    margin-bottom: 15px;
+}
+
+.card__interest {
+    font-style: oblique;
+}
+
+.card__enumeration {
+    color: #09822f;
+    font-style: oblique;
+    font-family: initial;
+    font-size: 19px;
+}
+
+.card__contacts a {
+    display: block;
+    color: #333;
+    text-decoration: none;
+    margin: 30px 0;
+    font-size: 18px;
+    font-family: Verdana;
+}
+
+.card__contacts a:hover {
+    text-decoration: underline;
+}
+
+.card__social a {
+    margin: 0 10%;
+    color: #1a0dab;
+    text-decoration: none;
+    margin-bottom: 0%;
+    font-size: 21px;
+}
+
+.card__image2 {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: -20px;
+    margin: 40%;
+    margin-top: 10%;
+    object-fit: cover;
+    max-width: 100%;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+.social {display: inline-block;}
+.social a {
+	display: block;
+	width: 50px;
+	height: 50px;
+    max-width: 100%;
+	margin:  10px 20px 10px 20px;
+	text-align: center;
+	color: #fff;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+    object-fit: cover;
+	box-shadow: 1px 1px 2px rgba(0,0,0,0.4), inset 1px 1px 0px rgba(255,255,255,0.5);
+}
+.social a:hover {
+	border-color: #888;
+	opacity: .8;
+}
+.social svg {
+	margin-top: 7px;
+	width: 38px;
+	height: 38px;
+}
+.github a {background: #191919}
+.vk a {background: #4a76a8}
